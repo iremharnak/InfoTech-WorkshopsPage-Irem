@@ -149,9 +149,9 @@ footer p {
 a.nav__link {
   color: #2577B6;
 }
-.nav__list--primary {
+/* .nav__list--primary {
   margin-bottom: 2em;
-}
+} */
 .nav__link--button {
   padding: 0.25em 0.75em;
   background: #a59678;
@@ -161,12 +161,12 @@ a.nav__link {
 .nav__link:focus {
   opacity: 0.65;
 }
-.logo {
+/* .logo {
   height: 30px;
-}
-/* .logo img {
-  max-width: 30%;
 } */
+.logo img {
+  max-width: 30%;
+}
 
 .hamburger {
   width: 50%;
@@ -196,7 +196,7 @@ span {
   color: #a59678;
 }
 header {
-  background-color:black;
+  background-color: #fff;
   
   /* color: #fff; */
   padding: 1em;
@@ -213,7 +213,6 @@ header {
   /* background-color: #3b4050; */
   background-image: url("assets/meeting-11-4.jpg") ;
   background-size: cover;
-  
   padding: 1em;
 }
 
@@ -297,7 +296,7 @@ h5 {
   .nav-toggle {
     display: none;
   }
-
+  
   .nav {
     visibility: visible;
     display: flex;
